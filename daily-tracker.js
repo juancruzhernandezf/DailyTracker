@@ -66,6 +66,7 @@ function new_list () {
 
 new_list();
 
+if ( create_list == "Si") {
 do {
 
     add_todo();
@@ -91,6 +92,10 @@ do {
 while (add_another == "Si");
 
 console.log("Gracias por utilizar el servicio, esperamos verte pronto", name_user+ "!");
+
+}
+
+
 
 
 

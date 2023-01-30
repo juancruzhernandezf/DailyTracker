@@ -19,6 +19,7 @@ let name_user = prompt("Bienvenido a Daily Tracker, ¿Cómo es tu nombre?");
 
 
 function add_todo() {
+    // Se encarga de agregar items a la lista TO Do
 
     item_todo = prompt("Escribe el nombre de la tarea que quieres agregar a la lista de quehaceres:")
 
@@ -28,6 +29,7 @@ function add_todo() {
 
 
 function new_list () {
+    // Se encarga de preguntarle al usuario si quiere crear una lista nueva.
 
     create_list = prompt(name_user + ", ¿quieres crear una lista de quehaceres nueva? Escribe 'Si' para crear una lista nueva o 'Salir' para finalizar ");
 
